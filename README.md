@@ -16,11 +16,11 @@ Server has running on port 3000 with 2 apis:
 - Step 3: use Search Race Api below with your filter which you want
 
 # Crawler Api
-Endpoint: http://localhost:3000/api/crawler/race
-Method: POST
+- Endpoint: http://localhost:3000/api/crawler/race
+- Method: POST
 
 # Search Api
-Endpoint: http://localhost:3000/api/race/search
+- Endpoint: http://localhost:3000/api/race/search
 - Method: GET
 - Params:
     - yearFrom: number
