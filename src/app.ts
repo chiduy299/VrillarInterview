@@ -44,7 +44,7 @@ class App {
     }
     
     private connectToDatabase() {
-        const connectString = process.env.MONGODB_URI;
+        const connectString = process.env.MONGODB_URI || "mongodb://localhost:27017";
         if (!connectString) {
             console.error('Connection string is invalid');
             return;
