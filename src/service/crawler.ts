@@ -72,7 +72,7 @@ class CrawlerService {
                         }
                     }
                     object["year"] = year;
-                    object["grand_fix"] = vecValue[0];
+                    object["grandFix"] = vecValue[0];
 
                     var date = new Date(vecValue[1]);
                     object["date"] = date.toLocaleDateString();

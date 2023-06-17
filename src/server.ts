@@ -1,11 +1,11 @@
 import App from './app';
 import { Route } from './core/interfaces';
-import CrawlerRoute from './protocol/http/route/crawler';
+import { CrawlerRoute, RaceRoute } from './protocol/http/route';
 
 const routes: Route[] = [
-    new CrawlerRoute()
+    new CrawlerRoute(),
+    new RaceRoute()
 ];
-
 
 const app = new App(routes);
 

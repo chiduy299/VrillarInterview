@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 export default interface IRace {
     id: string,
     year: number,
-    grand_fix: string,
-    epoch_date: number,
+    grandFix: string,
+    date: Date,
     winner: string,
     time: string,
     car: string,
@@ -16,7 +16,7 @@ const RaceModel = new mongoose.Schema({
         type: Number,
         require: true
     },
-    grand_fix: {
+    grandFix: {
         type: String,
         require: true
     },
