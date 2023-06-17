@@ -1,0 +1,32 @@
+{
+  "name": "vrillar-interview",
+  "version": "1.0.0",
+  "description": "A small server Backend to crawler data driver from formula1.com and define API Search for interview Test",
+  "main": "server.js",
+  "repository": "https://github.com/chiduy299/VRILLAR-Interview.git",
+  "author": "Duy Nguyen",
+  "license": "MIT",
+  "compilerOptions": {
+    "lib": [
+      "ES2021.String"
+    ]
+  },
+  "scripts": {
+    "dev-start": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4"
+  }
+}
